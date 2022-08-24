@@ -1,6 +1,6 @@
 void setup(){
   setup(400,400);
-  draw();
+  strokeWeight(5);
 }
 void draw(){
   noStroke();
@@ -18,7 +18,6 @@ void draw(){
   ellipse(200,200,300,300);
   fill(255,255,255);
   stroke(5);
-  strokeWeight(5);
   ellipse(200,200,70,70);
   ellipse(270,200,70,70);
   fill(0);
