@@ -25,5 +25,15 @@ void draw(){
   ellipse(210,200,20,20);
   ellipse(260,200,20,20);
   rotate(.3);
-  rect(210,190,100,20);
+  rect(180,90,100,20);
+  rotate(-.6);
+  rect(165,225,90,20);
+  rotate(.3);
+  noStroke();
+  fill(#F5F5DC);
+  arc(200,300,200,100,200,250);
+  fill(#FFFF00);
+  stroke(5);
+  triangle(235,210,195,260,326,265);
+  triangle(235,300,195,260,300,265);
 }
