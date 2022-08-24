@@ -1,5 +1,5 @@
 void setup(){
-  size(400,400);
+  setup(400,400);
 }
 void draw(){
   noStroke();
