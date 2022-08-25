@@ -3,7 +3,6 @@ void setup(){
 }
 void draw(){
   noStroke();
-  strokeWeight(5);
   fill(255,0,0);
   rotate(1);
   ellipse(130,-130,100,40);
